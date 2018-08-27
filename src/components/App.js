@@ -12,7 +12,9 @@ class App extends Component {
                     <span className="logo__text">Beau's</span>
                 </div>
             </header>,
-            <BeveragesContainer />,
+            <main>
+                <BeveragesContainer />
+            </main>,
             // TODO: Move footer to component
             <footer>
                 <div className="copyright">
