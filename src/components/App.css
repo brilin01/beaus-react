@@ -1,0 +1,66 @@
+@import url('//fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f2dfc2;
+    color: #4d2e1e;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4d2e1e;
+    font-family: "Abril Fatface", sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 5.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+hr {
+    height: 0; 
+    border: 0; 
+    border-top: 1px solid #4d2e1e;
+    margin: 50px 20px;
+}
+
+header, footer {
+    background-color: #4d2e1e;
+    padding: 30px;
+}
+
+.logo .logo__text {
+    font-size: 3.2rem;
+}
+
+.logo .logo__text,
+.copyright .copyright__text {
+    color: #f2dfc2;
+    font-family: "Abril Fatface", sans-serif;
+    text-transform: uppercase;
+}
